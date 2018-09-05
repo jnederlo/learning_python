@@ -1,0 +1,34 @@
+>>> Print()			-->	can use with f"{}" or "{}".format() to print format strings.
+						The format specifyer will dereference a variable passed in {}
+						You can concatenate strings together with '+' and print.
+						end=' ' as the last argument will prevent print from printing a newline and instead replace with a ' ' char.
+
+>>> '''				-->	This signals the start and end to a multiline string.
+
+>>> input()			-->	This takes input from the user typed in from the command line.
+						Include a string between brackets to indicate a prompt.
+
+>>> from _ import _	-->	This will import an object from a module defined after from.
+
+>>> sys.argv		-->	This is a list(object) with its own methods.
+						You can set the object to some data and you can call the defined methods on that object (data).
+
+>>> open()			--> A built-in function that will open a file and returns a file object.
+
+>>> .read()			--> This is a method on the file object that will read the contents of the file object.
+
+>>> .seek()			--> This is a method on the file object that will set the pointer to any byte location within the file, with which to enact some other method on (like .read())
+
+>>> close()			--> This will close the file(object) that was opened, and will set the data atrribute .closed to True.
+						Any opened file will automatically close at the end of the script if not explicitly called, but it is good practice to call it.
+						
+						with open(file) as f:
+							data = f.read()		
+
+						This will open a file and ensure that it is closed, meaning a call to close() is not necessary.
+
+>>> def func():		--> This signals creation of a user defined function call.
+
+>>> returns			-->	Sets the return value of a function equal to some variable, constant, or literal.
+
+
